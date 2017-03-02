@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6965C781E67F6F200EC8857 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6965C771E67F6F200EC8857 /* main.m */; };
+		A6965C7B1E67F6F200EC8857 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6965C7A1E67F6F200EC8857 /* AppDelegate.m */; };
+		A6965C7E1E67F6F200EC8857 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6965C7D1E67F6F200EC8857 /* ViewController.m */; };
+		A6965C811E67F6F200EC8857 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6965C7F1E67F6F200EC8857 /* Main.storyboard */; };
+		A6965C831E67F6F200EC8857 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6965C821E67F6F200EC8857 /* Assets.xcassets */; };
+		A6965C861E67F6F200EC8857 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6965C841E67F6F200EC8857 /* LaunchScreen.storyboard */; };
+		A6965C911E67F6F200EC8857 /* FJUITouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6965C901E67F6F200EC8857 /* FJUITouchTests.m */; };
+		A6965C9C1E67F6F200EC8857 /* FJUITouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6965C9B1E67F6F200EC8857 /* FJUITouchUITests.m */; };
+		A6965CAA1E67F75500EC8857 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6965CA91E67F75500EC8857 /* 1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6965C8D1E67F6F200EC8857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6965C6B1E67F6F200EC8857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6965C721E67F6F200EC8857;
+			remoteInfo = FJUITouch;
+		};
+		A6965C981E67F6F200EC8857 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6965C6B1E67F6F200EC8857 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6965C721E67F6F200EC8857;
+			remoteInfo = FJUITouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6965C731E67F6F200EC8857 /* FJUITouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FJUITouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6965C771E67F6F200EC8857 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6965C791E67F6F200EC8857 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6965C7A1E67F6F200EC8857 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6965C7C1E67F6F200EC8857 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6965C7D1E67F6F200EC8857 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6965C801E67F6F200EC8857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6965C821E67F6F200EC8857 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6965C851E67F6F200EC8857 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6965C871E67F6F200EC8857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6965C8C1E67F6F200EC8857 /* FJUITouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJUITouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6965C901E67F6F200EC8857 /* FJUITouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJUITouchTests.m; sourceTree = "<group>"; };
+		A6965C921E67F6F200EC8857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6965C971E67F6F200EC8857 /* FJUITouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FJUITouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6965C9B1E67F6F200EC8857 /* FJUITouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FJUITouchUITests.m; sourceTree = "<group>"; };
+		A6965C9D1E67F6F200EC8857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6965CA91E67F75500EC8857 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6965C701E67F6F200EC8857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6965C891E67F6F200EC8857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6965C941E67F6F200EC8857 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6965C6A1E67F6F200EC8857 = {
+			isa = PBXGroup;
+			children = (
+				A6965C751E67F6F200EC8857 /* FJUITouch */,
+				A6965C8F1E67F6F200EC8857 /* FJUITouchTests */,
+				A6965C9A1E67F6F200EC8857 /* FJUITouchUITests */,
+				A6965C741E67F6F200EC8857 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6965C741E67F6F200EC8857 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6965C731E67F6F200EC8857 /* FJUITouch.app */,
+				A6965C8C1E67F6F200EC8857 /* FJUITouchTests.xctest */,
+				A6965C971E67F6F200EC8857 /* FJUITouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6965C751E67F6F200EC8857 /* FJUITouch */ = {
+			isa = PBXGroup;
+			children = (
+				A6965CA91E67F75500EC8857 /* 1.jpg */,
+				A6965C791E67F6F200EC8857 /* AppDelegate.h */,
+				A6965C7A1E67F6F200EC8857 /* AppDelegate.m */,
+				A6965C7C1E67F6F200EC8857 /* ViewController.h */,
+				A6965C7D1E67F6F200EC8857 /* ViewController.m */,
+				A6965C7F1E67F6F200EC8857 /* Main.storyboard */,
+				A6965C821E67F6F200EC8857 /* Assets.xcassets */,
+				A6965C841E67F6F200EC8857 /* LaunchScreen.storyboard */,
+				A6965C871E67F6F200EC8857 /* Info.plist */,
+				A6965C761E67F6F200EC8857 /* Supporting Files */,
+			);
+			path = FJUITouch;
+			sourceTree = "<group>";
+		};
+		A6965C761E67F6F200EC8857 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6965C771E67F6F200EC8857 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6965C8F1E67F6F200EC8857 /* FJUITouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6965C901E67F6F200EC8857 /* FJUITouchTests.m */,
+				A6965C921E67F6F200EC8857 /* Info.plist */,
+			);
+			path = FJUITouchTests;
+			sourceTree = "<group>";
+		};
+		A6965C9A1E67F6F200EC8857 /* FJUITouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6965C9B1E67F6F200EC8857 /* FJUITouchUITests.m */,
+				A6965C9D1E67F6F200EC8857 /* Info.plist */,
+			);
+			path = FJUITouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6965C721E67F6F200EC8857 /* FJUITouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6965CA01E67F6F200EC8857 /* Build configuration list for PBXNativeTarget "FJUITouch" */;
+			buildPhases = (
+				A6965C6F1E67F6F200EC8857 /* Sources */,
+				A6965C701E67F6F200EC8857 /* Frameworks */,
+				A6965C711E67F6F200EC8857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FJUITouch;
+			productName = FJUITouch;
+			productReference = A6965C731E67F6F200EC8857 /* FJUITouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6965C8B1E67F6F200EC8857 /* FJUITouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6965CA31E67F6F200EC8857 /* Build configuration list for PBXNativeTarget "FJUITouchTests" */;
+			buildPhases = (
+				A6965C881E67F6F200EC8857 /* Sources */,
+				A6965C891E67F6F200EC8857 /* Frameworks */,
+				A6965C8A1E67F6F200EC8857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6965C8E1E67F6F200EC8857 /* PBXTargetDependency */,
+			);
+			name = FJUITouchTests;
+			productName = FJUITouchTests;
+			productReference = A6965C8C1E67F6F200EC8857 /* FJUITouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6965C961E67F6F200EC8857 /* FJUITouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6965CA61E67F6F200EC8857 /* Build configuration list for PBXNativeTarget "FJUITouchUITests" */;
+			buildPhases = (
+				A6965C931E67F6F200EC8857 /* Sources */,
+				A6965C941E67F6F200EC8857 /* Frameworks */,
+				A6965C951E67F6F200EC8857 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6965C991E67F6F200EC8857 /* PBXTargetDependency */,
+			);
+			name = FJUITouchUITests;
+			productName = FJUITouchUITests;
+			productReference = A6965C971E67F6F200EC8857 /* FJUITouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6965C6B1E67F6F200EC8857 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = GF;
+				TargetAttributes = {
+					A6965C721E67F6F200EC8857 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DLSTAU5U4Y;
+						ProvisioningStyle = Automatic;
+					};
+					A6965C8B1E67F6F200EC8857 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DLSTAU5U4Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6965C721E67F6F200EC8857;
+					};
+					A6965C961E67F6F200EC8857 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DLSTAU5U4Y;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6965C721E67F6F200EC8857;
+					};
+				};
+			};
+			buildConfigurationList = A6965C6E1E67F6F200EC8857 /* Build configuration list for PBXProject "FJUITouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6965C6A1E67F6F200EC8857;
+			productRefGroup = A6965C741E67F6F200EC8857 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6965C721E67F6F200EC8857 /* FJUITouch */,
+				A6965C8B1E67F6F200EC8857 /* FJUITouchTests */,
+				A6965C961E67F6F200EC8857 /* FJUITouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6965C711E67F6F200EC8857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6965C861E67F6F200EC8857 /* LaunchScreen.storyboard in Resources */,
+				A6965CAA1E67F75500EC8857 /* 1.jpg in Resources */,
+				A6965C831E67F6F200EC8857 /* Assets.xcassets in Resources */,
+				A6965C811E67F6F200EC8857 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6965C8A1E67F6F200EC8857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6965C951E67F6F200EC8857 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6965C6F1E67F6F200EC8857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6965C7E1E67F6F200EC8857 /* ViewController.m in Sources */,
+				A6965C7B1E67F6F200EC8857 /* AppDelegate.m in Sources */,
+				A6965C781E67F6F200EC8857 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6965C881E67F6F200EC8857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6965C911E67F6F200EC8857 /* FJUITouchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6965C931E67F6F200EC8857 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6965C9C1E67F6F200EC8857 /* FJUITouchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6965C8E1E67F6F200EC8857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6965C721E67F6F200EC8857 /* FJUITouch */;
+			targetProxy = A6965C8D1E67F6F200EC8857 /* PBXContainerItemProxy */;
+		};
+		A6965C991E67F6F200EC8857 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6965C721E67F6F200EC8857 /* FJUITouch */;
+			targetProxy = A6965C981E67F6F200EC8857 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6965C7F1E67F6F200EC8857 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6965C801E67F6F200EC8857 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6965C841E67F6F200EC8857 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6965C851E67F6F200EC8857 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6965C9E1E67F6F200EC8857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6965C9F1E67F6F200EC8857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6965CA11E67F6F200EC8857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DLSTAU5U4Y;
+				INFOPLIST_FILE = FJUITouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodfamily.FJUITouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6965CA21E67F6F200EC8857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DLSTAU5U4Y;
+				INFOPLIST_FILE = FJUITouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodfamily.FJUITouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6965CA41E67F6F200EC8857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DLSTAU5U4Y;
+				INFOPLIST_FILE = FJUITouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodfamily.FJUITouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJUITouch.app/FJUITouch";
+			};
+			name = Debug;
+		};
+		A6965CA51E67F6F200EC8857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = DLSTAU5U4Y;
+				INFOPLIST_FILE = FJUITouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodfamily.FJUITouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FJUITouch.app/FJUITouch";
+			};
+			name = Release;
+		};
+		A6965CA71E67F6F200EC8857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DLSTAU5U4Y;
+				INFOPLIST_FILE = FJUITouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodfamily.FJUITouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FJUITouch;
+			};
+			name = Debug;
+		};
+		A6965CA81E67F6F200EC8857 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DLSTAU5U4Y;
+				INFOPLIST_FILE = FJUITouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.goodfamily.FJUITouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FJUITouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6965C6E1E67F6F200EC8857 /* Build configuration list for PBXProject "FJUITouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6965C9E1E67F6F200EC8857 /* Debug */,
+				A6965C9F1E67F6F200EC8857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6965CA01E67F6F200EC8857 /* Build configuration list for PBXNativeTarget "FJUITouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6965CA11E67F6F200EC8857 /* Debug */,
+				A6965CA21E67F6F200EC8857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6965CA31E67F6F200EC8857 /* Build configuration list for PBXNativeTarget "FJUITouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6965CA41E67F6F200EC8857 /* Debug */,
+				A6965CA51E67F6F200EC8857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6965CA61E67F6F200EC8857 /* Build configuration list for PBXNativeTarget "FJUITouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6965CA71E67F6F200EC8857 /* Debug */,
+				A6965CA81E67F6F200EC8857 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6965C6B1E67F6F200EC8857 /* Project object */;
+}
